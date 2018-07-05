@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-family: Monoton;
+    font-family: Monoton, Montserrat;
     font-size: 70px;
     margin: 0.2em;
 }
@@ -41,16 +41,28 @@ input[type=number] {
     width: 6em;
 }
 .my-input {
-    display: block;
-    margin: 0;
-    padding: var(--inputPaddingV) var(--inputPaddingH);
-    color: inherit;
-    width: 100%;
-    font-family: inherit;
-    font-size: var(--inputFontSize);
-    font-weight: inherit;
-    line-height: var(--inputLineHeight);
-    border: none;
-    border-radius: 0.4rem;
-    transition: box-shadow var(--transitionDuration);
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+    border: 0;
+    outline: 0;
+    padding: 22px 18px;
+}
+
+.btn-shadow {
+    border: 0;
+    font-weight: 600;
+    background-color: #02b3e4;
+    color: #fff;
+    box-shadow: rgba(23,43,99,.24) 0 7px 28px;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 12px 23px;
+    text-shadow: 1px 1px rgba(0,0,0,.09);
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
 }
